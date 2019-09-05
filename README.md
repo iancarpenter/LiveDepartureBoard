@@ -1,6 +1,7 @@
 # LiveDepartureBoard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
+![alt text](https://oraclefrontovikcom.files.wordpress.com/2019/09/lbodepartures.jpg?w=768)
+
 
 ## Development server
 
