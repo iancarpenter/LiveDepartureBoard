@@ -2,7 +2,7 @@
 
 ![alt text](https://oraclefrontovikcom.files.wordpress.com/2019/09/lbodepartures.jpg?w=768)
 
-This is a Train station departure board application built using Angular and [Huxley](https://github.com/jpsingleton/Huxley)
+A Train station departure board application built using Angular and [Huxley](https://github.com/jpsingleton/Huxley)
 
 ## Build
 
