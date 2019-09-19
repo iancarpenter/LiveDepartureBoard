@@ -1,6 +1,6 @@
 # LiveDepartureBoard
 
-![alt text](https://oraclefrontovikcom.files.wordpress.com/2019/09/lbodepartures.jpg?w=768)
+![alt text](https://oraclefrontovikcom.files.wordpress.com/2019/09/choosingastation.gif)
 
 A Train station departure board application built using Angular and [Huxley](https://github.com/jpsingleton/Huxley)
 
