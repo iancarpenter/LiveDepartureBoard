@@ -1,0 +1,14 @@
+.container {
+    background: black;
+    color: white;    
+    font-family: 'Arial', cursive;        
+    font-size: large;
+}
+
+.TrainDestination {
+    color: rgb(255, 174, 0)
+}
+
+.header, .footer {
+    background: hsla(226, 98%, 49%, 0.829)
+}
