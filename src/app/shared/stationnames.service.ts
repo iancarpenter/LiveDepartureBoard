@@ -8797,10 +8797,10 @@ export class StationNamesService {
       stationName: 'Stapleton Road',
       crsCode: 'SRD'
     },
-    {
-      stationName: 'London St Pancras International LL',
-      crsCode: 'SPL'
-    },
+    // {
+    //   stationName: 'London St Pancras International LL',
+    //   crsCode: 'SPL'
+    // },
     {
       stationName: 'Stourbridge Junction',
       crsCode: 'SBJ'
@@ -12561,7 +12561,7 @@ export class StationNamesService {
     'Stow',
     'London St Pancras International',
     'Stapleton Road',
-    'London St Pancras International LL',
+    // 'London St Pancras International LL',
     'Stourbridge Junction',
     'Stourbridge Town',
     'Starcross',
