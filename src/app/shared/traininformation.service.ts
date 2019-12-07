@@ -9,7 +9,7 @@ export class TrainInformationService {
 
     constructor(private http: HttpClient) { }
 
-    private readonly coreURL: string = 'https://ichuxley.azurewebsites.net/departures/';
+    private readonly coreURL: string = 'https://huxley-23.apphb.com/departures/';
 
     // return the coreUrl with the crs code appended.
     getFullUrl(crsCode: string): string {
@@ -36,8 +36,8 @@ export class TrainInformationService {
         } else {
             // The backend returned an unsuccessful response code
             // The response body may contain clues as to what went wrong
-            console.log(`Backend returned code ${error.status},` +
-                        `body was: ${error.error}`);
+            console.log('Backend returned code: ', error.status);
+            console.log('body was: ', error.error);
         }
         // return an observable with a user-facing error message
         return throwError('Something bad has happened; please try again later.');
