@@ -23,7 +23,7 @@ export class AppComponent implements OnInit, OnDestroy {
   timer: number;
   trainStationNames: string[];
 
-  private readonly defaultTrainStationURL = 'https://ichuxley.azurewebsites.net/departures/lbo';
+  private readonly defaultTrainStationURL = 'https://huxley-23.apphb.com/departures/lbo';
 
   constructor(private trainInformationService: TrainInformationService,
               private stationNamesService: StationNamesService) {}
