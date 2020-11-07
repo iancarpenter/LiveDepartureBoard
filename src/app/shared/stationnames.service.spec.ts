@@ -30,4 +30,28 @@ describe('stationnamesservice', () => {
         // assert
         expect(stationsNames[2586]).toBe('Ystrad Rhondda');
     });
+
+    it('should return the crs code for Winchmore Hill', () => {
+        // act
+        const stationCRSCode = service.getCRSForStation('Winchmore Hill');
+
+        //assert
+        expect(stationCRSCode).toBe('WIH');
+    });
+
+    it('should return the crs code for Palmers Green', () => {
+        // act
+        const stationCRSCode = service.getCRSForStation('Palmers Green');
+
+        //assert
+        expect(stationCRSCode).toBe('PAL');
+    });
+
+    it('should return the crs code for Bowes Park', () => {
+        // act
+        const stationCRSCode = service.getCRSForStation('Bowes Park');
+
+        //assert
+        expect(stationCRSCode).toBe('BOP');
+    });
 })
